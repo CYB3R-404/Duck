@@ -1291,13 +1291,5 @@ class Main:
 		self.loop +=1
 
 
-def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
-	clear()
-	print(logo)
-	r1=requests.get("https://raw.githubusercontent.com/Yasir387/okay/main/Approve.txt").text
-	if key1 in r1:
-		os.system('clear')
-		print(logo)
-		Main()
+Main ()
 	
